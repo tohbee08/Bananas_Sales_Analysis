@@ -33,4 +33,21 @@ EDA of Bananas sales help us gain insight into understanding customer profile an
 2. Sales month and subscription type was sliced to gain better understanding of sales trend in each grouped sunscription type.
 3. Senior management is looking to identify upsell opportunities. Upsell means getting non-paying accounts to convert to paying accounts of Basic to $10, premium to $10, business to $25 and Enterprise to $27. The total upsell would have been $272,473 if Bananas had all their users paying.
 4. Even though we found out how much money Bananas could have made had if they had all their customers paying, it does not address which accounts our customer success team should target for upsell opportunities.
+5. Total Upsell $ calculates all the upsell opportunities from each sales month. This isn't helpful in a current analysis because we can't go back in the past. So, Total Upsell $ becomes Current Upsell $ and maximum sales month is used to get the sum of the current Upsell $, which amount to $38,093.
+6. To help the customer success team, we will create categories for them to work from.  if Current Upsell $ is greater than or equal to 400, then High, else if Current Upsell $ is greater than or equal to 100, then Medium, else if Current Upsell $ is less than 100, then Low. This will help them prioritize the account that can be targeted for upsell opportunity.
+7. Sales month data was aggregated to gain some good insight on month-to-month trends. The analysis shows total sales is increasing while average sales per customer is decreasing.
+8. Because Avg Sales Per Customer is decreasing while Total Sales is increasing, one hypothesis for this relationship could be that the share of non-paying customers ("Basic" subscriptions) are growing faster than our paying customers. So, we found out the number paying customers so we can compare the two cohorts.
+9. Even though we got the Current Upsell $, which gave us a total amount that could be earned if Bananas got every active non-paying user to upgrade their account.
+While that number was insightful, it's still quite unrealistic as Bananas cannot get all their customers to upgrade. The following scenario analysis to see how much we think this is a more realistic sales opportunity was done:
+- Projected Upsell Amount that calculates the Current Upsell $ for each Subscription Type and Conversion Rate of 50% for Basic, 45% for Premium, 30% for Business and 15% for Enterprise.
+- We know the last month's Sales Amount was about $80,000 but the management aims to earn $100,000 in monthly sales revenue. Using goal seek to find what the Growth Rate needs to be if Sales Target = $100,000, it was dicovered that growth rate has to be at 24%.
+- Bananas also wants to explore increasing sales revenue by increasing prices, and they want to see how the projected sales would change in a specific scenario for each Subscription Type. If prices of license is increased, there will be an increase in projected sales.
+ - Demand could dcrease if there is an increase in price. 
+
+10. The leadership team at Bananas is goal planning for next month, and they're curious about what sales might be. They want us to forecast this for them using historical data.
+- simple moving average (SMA) and weighted moving average (WMA) was used to forecast sales
+- Both SMA and WMA forecast an increase in sales of $70,538 and $73,491 respectively for next month.
+- Also, the trendlibne shows this is rapid increase in sales.
+- 
+
 

@@ -1,5 +1,5 @@
 # Bananas_Sales_Analysis
-- Table of Content
+## Table of Content
 - Project Overview
 - Data Sources
 - Tools

@@ -1,12 +1,12 @@
 # Bananas_Sales_Analysis
 ## Table of Content
- - Project Overview
- - Data Sources
- - Tools
- - Data Cleaning and Preparation
- - Exploratory Data Analysis (EDA)
- - Recommendation
- - Reference
+### Project Overview
+### Data Sources
+### Tools
+### Data Cleaning and Preparation
+### Exploratory Data Analysis (EDA)
+### Recommendation
+### Reference
 
 ### Project Overview
 
